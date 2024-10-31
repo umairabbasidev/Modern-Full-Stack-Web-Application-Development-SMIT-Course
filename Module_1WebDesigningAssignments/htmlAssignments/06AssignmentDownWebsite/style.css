@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+  padding: 4px;
+}
+
+.topNav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 18px;
+  font-size: 12px;
+  list-style: none;
+}
+
+.topNav ul a {
+  color: #9fa6b2;
+  text-decoration: none;
+}
+
+.headerImage {
+  margin: 20px 0;
+}
+
+.headerImage img {
+  max-width: 176px;
+  display: block;
+  margin: auto;
+}
+.headerImage p {
+  text-align: center;
+  font-size: 12px;
+  color: #6b7280;
+  margin: 10px 0;
+}
+
+.headerHr {
+  height: 5px;
+  background-color: black;
+  max-width: 90%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* secondNavigation */
+
+.secondNavigation nav {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  flex-wrap: wrap;
+  grid-column-gap: 30px;
+  margin: 5px 0;
+}
+
+.secondNavigation nav ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 12px;
+  list-style: none;
+  margin-left: 75px;
+}
+.secondNavigation nav a {
+  font-size: 11px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+}
+.secondNavigationInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid gray;
+  width: 10%;
+  border-radius: 20px;
+  padding: 5px;
+}
+.fa-magnifying-glass {
+  font-size: 15px;
+  color: gray;
+}
+.secondNavigationInput input {
+  border: none;
+  outline: none;
+  margin-left: 4px;
+}
+.secondNavigation nav a:hover {
+  background-color: #e5e7eb;
+  padding: 10px 1px;
+}
+.secondNavigationHr {
+  background-color: #e5e7eb;
+  max-width: 90%;
+  margin: auto;
+}
+
+
+
+.progressMsg{
+  
+display: flex;
+justify-content: center;
+align-items: center;
+height: 50vh;
+  
+}
